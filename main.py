@@ -77,3 +77,4 @@ def delete_task(task_id: int, session: Session = Depends(get_session)):
     session.delete(task)
     session.commit()
     return {"message": "Задача удалена"}
+#Made by https://github.com/Serega210810
