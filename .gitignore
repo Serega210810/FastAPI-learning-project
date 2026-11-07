@@ -1,5 +1,25 @@
+# Виртуальное окружение
 venv/
+
+# Переменные окружения с паролями
 .env
+
+# Кэш Python
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+.Python
+
+# Кэш pytest
 .pytest_cache/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ОС
+.DS_Store
+Thumbs.db
